@@ -14,8 +14,8 @@ export default function () {
 
     if (form.current) {
       emailjs
-        .sendForm('service_rqm9bwq', 'template_xuizs8p', form.current, {
-          publicKey: '-kBOZkcSo6PIMZ9mi',
+        .sendForm('service_rqm9bwh', 'template_xuizs8h', form.current, {
+          publicKey: '-kBOZkcSo6PIMZ9mh',
         })
         .then(
           () => {
